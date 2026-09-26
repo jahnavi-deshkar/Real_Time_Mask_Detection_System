@@ -1,5 +1,7 @@
 REAL TIME MASK DETECTION SYSTEM
+
 Project Documentation and Technical Specification
+
 YOLOv8 • ONNX Runtime • OpenCV • Streamlit
 
 Developed as a local computer-vision prototype for mask compliance detection
@@ -15,15 +17,15 @@ The project is a computer-vision prototype that uses a trained object-detection 
 The implementation was developed from a pre-labelled face-mask dataset, trained using Google Colab, and then exported to ONNX so inference could run locally with ONNX Runtime. The local application uses OpenCV for frame handling and Streamlit for the user interface.
 
 3. PRIMARY GOALS
-1.	Detect masks and no-mask instances in images and video.
-2.	Draw a bounding box around each detected instance.
-3.	Use green boxes for Mask detections and red boxes for No Mask detections.
-4.	Count detected No Mask instances as violations.
-5.	Process uploaded video files frame-by-frame.
-6.	Support webcam-based detection.
-7.	Provide a simple confidence-threshold control.
-8.	Display the annotated output and a live violation counter.
-9.	Record violations using a cooldown mechanism to avoid repeated log entries.
+	Detect masks and no-mask instances in images and video.
+	Draw a bounding box around each detected instance.
+	Use green boxes for Mask detections and red boxes for No Mask detections.
+	Count detected No Mask instances as violations.
+	Process uploaded video files frame-by-frame.
+	Support webcam-based detection.
+	Provide a simple confidence-threshold control.
+	Display the annotated output and a live violation counter.
+	Record violations using a cooldown mechanism to avoid repeated log entries.
 
 4. TARGET USERS / USE CASES
 The prototype is suitable for demonstrating automated mask-compliance monitoring in controlled environments such as workplaces, laboratories, educational facilities, construction or industrial settings, and other locations where visual mask compliance is required.
