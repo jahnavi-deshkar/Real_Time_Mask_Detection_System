@@ -249,3 +249,5 @@ Violation tracker after cooldown	Violation occurs after cooldown.	A new CSV reco
 
 27. PROJECT SUMMARY
 The completed Mask Detection System is a local computer-vision prototype built around a trained YOLOv8 model. The project separates model inference from violation logging and presents the result through a Streamlit interface. The training pipeline uses YOLOv8 and Google Colab, while the local deployment uses the exported ONNX model with ONNX Runtime. The system currently supports mask/no-mask detection, annotated image and video processing, webcam processing, confidence filtering, violation counting, and a cooldown-based CSV tracker. 
+
+28. MIT License 
